@@ -9,7 +9,8 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build-css": "sass --watch src/styles/styles.scss src/styles/styles.css",
-    "watch-css": "\"npm run build-css\""
+    "watch-css": "\"npm run build-css\"",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "nodemon": "^2.0.22",
